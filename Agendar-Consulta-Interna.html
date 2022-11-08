@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/1-Pagina-Interna.css">
+
+    <title> Agende sua consulta | Uniclinic </title>
+</head>
+
+<body>
+    <div class="content-geral">
+
+        <div class="barra-de-menu-pagina-interna">
+
+            <div class="titulo-uniclinic-barra-de-menu">
+                <a href="Pagina-Inicial-Interna.html"> Uniclinic </a>
+            </div>
+            <!--titulo-uniclinic-barra-de-menu-->
+
+            <div class="content-barra-de-menu">
+                <a href="Dados-Cadastrais.html"> Dados Cadastrais </a>
+            </div>
+            <!--content-barra-de-menu-->
+
+            <div class="content-barra-de-menu">
+                <a href="Agendar-Consulta-Interna.html"> Agendar Consulta </a>
+            </div>
+            <!--content-barra-de-menu-->
+
+            <div class="content-barra-de-menu">
+                <a href="Historico-Consultas.html"> Histórico de Consultas </a>
+            </div>
+            <!--content-barra-de-menu-->
+
+            <div class="content-barra-de-menu">
+                <a href="Médico-Interna.html"> Médico </a>
+            </div>
+            <!--content-barra-de-menu-->
+
+        </div>
+        <!--barra-de-menu-pagina-interna-->
+
+        <div class="content-agendar-consulta">
+
+            <div class="formulario1-content-agendar-consulta">
+                <fieldset class="formulario-geral-agendar-consulta">
+
+                    <form action="">
+                        <div class="header-formulario1">
+
+                            <div class="img-medico">
+                                <img src="assets/Medica_logo.png">
+                            </div>
+                            <!--img-medico-->
+
+                            <div class="texto-header-formulario1">
+                                <p id="nome-medico-agendar-consulta"> Dr. Uniclinic</p>
+                                <p> Clínico Geral | Especialista em Cardiologia</p>
+                            </div>
+                            <!--texto-header-formulario1-->
+
+                        </div>
+                        <!--header-formulario1-->
+
+                        <div class="content-formulario1">
+
+                            <h4> Apresentação </h4>
+                            <p> colocar pra editar </p>
+                            <hr>
+
+                            <h4> Formação </h4>
+                            <ul>
+                                <li class="text-padrao-agendar-consulta"> Medicina</li>
+                            </ul>
+
+                            <p> colocar pra editar </p>
+
+                            <ul>
+                                <li class="text-padrao-agendar-consulta"> Residência Médica</li>
+                            </ul>
+
+                            <p> colocar pra editar </p><br>
+
+                        </div>
+                        <!--content-formulario1-->
+
+                    </form>
+                </fieldset>
+            </div>
+            <!--formulario1-content-agendar-consulta-->
+
+            <div class="formulario2-content-agendar-consulta">
+                <fieldset class="formulario-geral-agendar-consulta">
+                    <div class="fomulario-agendar-consulta-content-interno">
+                        <div>
+                            <h2> Agendar Consulta</h2>
+                        </div>
+                        <form action="">
+
+                            <div class="text-padrao-agendar-consulta">
+                                <label for="tipo-de-consulta"> Escolha o tipo de consulta que deseja agendar:
+                                </label><br>
+                                <select id="tipo-de-consulta" name="tipo-de-consulta" class="input-login"><br>
+                                    <option value="presencial"> Presencial </option>
+                                    <option value="teleconsulta"> Teleconsulta </option>
+                                </select><br>
+                            </div>
+                            <!--text-padrao-agendar-consulta-->
+
+                            <div class="text-padrao-agendar-consulta">
+                                <label for="data" style="font-size: 14px;"> Data da consulta </label><br>
+                                <input type="date" id="data" name="data" class="input-login"><br><br>
+                            </div>
+                            <!--text-padrao-agendar-consulta-->
+
+                            <div class="content-horarios">
+                                <div class="horario-manha">
+                                    <div class="text-manha">
+                                        <botton> Manhã </botton>
+                                    </div>
+                                    <!--text-manha-->
+
+                                    <div class="horarios-geral">
+                                        <div class="coluna-horarios-manha">
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora1" name="hora1">
+                                                <label for="hora1"> 9:00 </label><br>
+                                            </div>
+                                            <!--text-horarios-->
+
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora2" name="hora2">
+                                                <label for="hora2"> 9:30 </label><br>
+                                            </div>
+                                            <!--text-horarios-->
+
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora3" name="hora3">
+                                                <label for="hora3"> 10:00 </label><br>
+                                            </div>
+                                            <!--text-horarios-->
+
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora4" name="hora4">
+                                                <label for="hora4"> 10:30 </label><br>
+                                            </div>
+                                            <!--text-horarios-->
+
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora5" name="hora5">
+                                                <label for="hora5"> 11:00 </label><br>
+                                            </div>
+                                            <!--text-horarios-->
+                                        </div>
+                                        <!--coluna-horarios-manha-->
+
+                                    </div>
+                                    <!--horarios-geral-->
+
+                                </div>
+                                <!--horario-manha-->
+
+                                <div class="horario-tarde">
+                                    <div class="text-tarde">
+                                        <botton> Tarde </botton>
+                                    </div>
+                                    <!--text-tarde-->
+
+                                    <div class="horarios-geral">
+                                        <div class="coluna-horarios-tarde-esquerda">
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora9" name="hora9">
+                                                <label for="hora9"> 13:00 </label><br>
+                                            </div>
+                                            <!--text-horarios-->
+
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora10" name="hora10">
+                                                <label for="hora10"> 13:30 </label><br>
+                                            </div>
+                                            <!--text-horarios-->
+
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora11" name="hora11">
+                                                <label for="hora11"> 14:00 </label><br>
+                                            </div>
+                                            <!--text-horarios-->
+
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora12" name="hora12">
+                                                <label for="hora12"> 14:30 </label><br>
+                                            </div>
+                                            <!--text-horarios-->
+
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora13" name="hora13">
+                                                <label for="hora13"> 15:00 </label><br>
+                                            </div>
+                                            <!--text-horarios-->
+
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora14" name="hora14">
+                                                <label for="hora14"> 15:30 </label><br>
+                                            </div>
+                                            <!--text-horarios-->
+                                        </div>
+                                        <!--coluna-horarios-tarde-esquerda-->
+
+                                        <div class="coluna-horarios-tarde-direita">
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora15" name="hora15">
+                                                <label for="hora15"> 16:00 </label><br>
+                                            </div>
+                                            <!--text-horarios-->
+
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora16" name="hora16">
+                                                <label for="hora16"> 16:30 </label><br>
+                                            </div>
+                                            <!--text-horarios-->
+
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora17" name="hora17">
+                                                <label for="hora17"> 17:00 </label><br>
+                                            </div>
+                                            <!--text-horarios-->
+
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora18" name="hora18">
+                                                <label for="hora18"> 17:30 </label><br>
+                                            </div>
+                                            <!--text-horarios-->
+
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora19" name="hora19">
+                                                <label for="hora19"> 18:00 </label><br>
+                                            </div>
+                                            <!--text-horarios-->
+
+                                            <div class="text-horarios">
+                                                <input type="checkbox" id="hora20" name="hora20">
+                                                <label for="hora20"> 18:30 </label>
+                                            </div>
+                                            <!--text-horarios-->
+
+                                        </div>
+                                        <!--coluna-horarios-tarde-direita-->
+
+                                    </div>
+                                    <!--horarios-->
+
+                                </div>
+                                <!--horario-tarde-->
+
+                            </div>
+                            <!--content-horarios-->
+
+                            <div class="container-button-agendar-consulta">
+                                <button class="button-agendar-consulta"> Agendar </button>
+                            </div>
+                            <!--container-button-cadastro-consulta-->
+
+                        </form>
+                    </div>
+                    <!--fomulario-agendar-consulta-content-interno-->
+
+                </fieldset>
+
+            </div>
+            <!--formulario2-content-agendar-consulta-->
+
+        </div>
+        <!--content-agendar-consulta-->
+
+    </div>
+    <!--content-geral-->
+</body>
+
+</html>

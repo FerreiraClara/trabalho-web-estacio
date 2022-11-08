@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/1-Pagina-Interna.css">
+
+    <title> Cadastro de Convênios | Uniclinic </title>
+</head>
+
+<body>
+    <div class="content-geral">
+
+        <div class="barra-de-menu-pagina-interna">
+            <div class="titulo-uniclinic-barra-de-menu">
+                <a href="Pagina-Inicial-Interna.html"> Uniclinic </a>
+            </div>
+            <!--titulo-uniclinic-barra-de-menu-->
+
+            <div class="content-barra-de-menu">
+                <a href="Dados-Cadastrais.html"> Dados Cadastrais </a>
+            </div>
+            <!--content-barra-de-menu-->
+
+            <div class="content-barra-de-menu">
+                <a href="Agendar-Consulta-Interna.html"> Agendar Consulta </a>
+            </div>
+            <!--content-barra-de-menu-->
+
+            <div class="content-barra-de-menu">
+                <a href="Historico-Consultas.html"> Histórico de Consultas </a>
+            </div>
+            <!--content-barra-de-menu-->
+
+            <div class="content-barra-de-menu">
+                <a href="Médico-Interna.html"> Médico </a>
+            </div>
+            <!--content-barra-de-menu-->
+
+        </div>
+        <!--barra-de-menu-pagina-interna-->
+
+        <div class="content-cadastro-convenio">
+            <fieldset class="formulario-cadastro-convenio">
+
+                <div class="titulo-cadastro-convenio">
+                    <h1 id="cadastro-convenio"> Cadastro de Convênios </h1>
+                    <hr class="hr-cadastro-convenio">
+                </div>
+                <!--titulo-cadastro-convenio-->
+
+                <div class="colunas-geral-cadastro-convenio">
+                    <form action="">
+
+                        <div class="text-padrao-de-cadastro">
+                            <label for="convenio"> Plano de Saúde </label>
+                            <input type="text" id="convenio" name="convenio" placeholder="Informe o nome do plano"
+                                class="input-padrao-cadastro-convenio">
+                        </div>
+                        <!--text-padrao-de-cadastro-->
+
+                        <div class="text-padrao-de-cadastro">
+                            <label for="preco_sem_desconto"> Valor da consulta sem desconto </label>
+                            <input type="text" id="preco_sem_desconto" name="preco_sem_desconto" placeholder="00,00"
+                                class="input-padrao-cadastro-convenio">
+                        </div>
+                        <!--text-padrao-de-cadastro-->
+
+                        <div class="text-padrao-de-cadastro">
+                            <label for="desconto"> Desconto </label>
+                            <input type="text" id="desconto" name="desconto"
+                                placeholder="Informe o valor em porcentagem" class="input-padrao-cadastro-convenio">
+                        </div>
+                        <!--text-padrao-de-cadastro-->
+
+                        <div class="text-padrao-de-cadastro">
+                            <label for="preco_com_desconto"> Valor final </label>
+                            <input type="text" id="preco_com_desconto" name="preco_com_desconto" placeholder="00,00"
+                                class="input-padrao-cadastro-convenio">
+                        </div>
+                        <!--text-padrao-de-cadastro-->
+
+                        <div class="container-button-cadastro-convenio">
+                            <input type="submit" id="adicionar" name="adicionar" value="Adicionar"
+                                class="button-cadastro-convenio">
+                        </div>
+                        <!--container-button-cadastro-convenio-->
+
+                    </form>
+                </div>
+                <!--colunas-geral-cadastro-convenio-->
+
+            </fieldset>
+        </div>
+        <!--content-cadastro-convenio-->
+
+    </div>
+    <!--content-geral-->
+</body>
+
+</html>

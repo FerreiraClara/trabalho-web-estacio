@@ -1,0 +1,710 @@
+*{
+    margin: 0;
+}
+
+/* CSS BARRA DE MENU*/
+
+.content-geral{
+    display: flex;
+    width: 100%;
+}
+
+.barra-de-menu-pagina-interna{
+    width: 40%; /*quanto menor, mais para fora da tela*/
+    height: 700px;
+    background-color: rgb(94, 94, 255, 0.6);
+    border-right: 5px solid #6765bdbd;
+    border-left: 5px solid #6765bdbd;
+}
+
+.titulo-uniclinic-barra-de-menu{
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo-uniclinic-barra-de-menu a{
+    text-decoration: none;
+    color: rgb(13, 12, 80);
+}
+
+.content-barra-de-menu{
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid #6765bdbd;
+    border-top: 1px solid #6765bdbd;
+    height: 15px;
+    text-decoration: none;
+}
+
+.content-barra-de-menu a{
+    text-decoration: none;
+    color: #0c0b44;
+}
+
+/* CSS CONTENT-PAGINA-INICIAL-SEJA-BEM-VINDO*/
+
+.content-pagina-inicial{
+    padding: 10px 40px 0px 40px;
+    width: 150%;
+    background-image: linear-gradient(rgb(94, 94, 255, 0.6),rgb(94, 94, 255, 0.5));
+}
+
+.content-pagina-inicial h1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    text-shadow: rgb(122, 121, 175) 0.1em 0.1em 0.5em; /*direita, baixo, embaçado*/
+    color: rgb(13, 12, 80);
+}
+
+.content-pagina-inicial p{
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 20px;
+    line-height: 1.8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(11, 10, 63);
+}
+
+/* CSS CONTENT-DADOS-CADASTRAIS*/
+
+.content-dados-cadastrais{
+    display: flex;
+    padding-left: 40px;
+    width: 150%;
+    background-image: linear-gradient(rgb(94, 94, 255, 0.6),rgb(94, 94, 255, 0.5));
+}
+
+.formulario-dados-cadastrais{
+    display: block;
+    border: 2px solid rgb(94, 94, 255, 0.8);
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 20px;
+    width: 900px;
+    height: 790px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.hr-dados-cadastrais{
+    border: none;
+    height: 1px;
+    background-color: rgb(94, 94, 255);
+    opacity: 70%;
+}
+
+.colunas-geral-dados-cadastrais{
+    display: flex;
+    justify-content: center;
+}
+
+.coluna-esquerda-de-cadastro{
+    width: 45%;
+}
+
+.coluna-direita-de-cadastro{
+    width: 45%;
+    margin-left: 5%;
+}
+
+.text-padrao-de-cadastro{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 20px;
+    line-height: 1.8;
+}
+
+.input-padrao-dados-cadastrais{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(34, 34, 187, 0.3);
+    background-color: transparent;
+}
+
+.container-button-dados-cadastrais{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.button-dados-cadastrais{
+    height: 40px;
+    width: 300px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(34, 34, 187, 0.3);
+    color: black;
+    border: 1.8px solid rgb(94, 94, 255, 0.6);
+    box-shadow: black 0.1em 0.1em 0.3em;
+    border-radius: 10px;
+    text-decoration: none; 
+    margin-top: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+#dados-cadastrais{
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+/* CSS CONTENT-AGENDAR-CONSUTA*/
+
+.content-agendar-consulta{
+    display: flex;
+    padding-left: 40px;
+    width: 150%;
+    background-image: linear-gradient(rgb(94, 94, 255, 0.6),rgb(94, 94, 255, 0.5));
+}
+
+.formulario1-content-agendar-consulta{
+    display: flex;
+    margin-top: 30px;
+    padding-right: 40px;
+}
+
+.formulario2-content-agendar-consulta{
+    display: flex;
+    margin-top: 30px;
+}
+
+.formulario-geral-agendar-consulta{
+    display: flex;
+    border: 2px solid rgb(94, 94, 255, 0.8);
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 20px;
+    width: 450px;
+    height: 550px;
+}
+
+.fomulario-agendar-consulta-content-interno{
+    position: relative;
+    width: 100%;
+}
+
+.img-medico img{
+    width: 150px;
+}
+
+.header-formulario1{
+    display: flex;
+}
+
+.texto-header-formulario1{
+    display: block;
+    padding: 30px 0px 0px 10px;
+    
+}
+
+.content-formulario1{
+    line-height: 30px;
+}
+
+.content-formulario1 hr{
+    opacity: 80%;
+    margin: 14px;
+    margin-top: 8%;
+}
+
+.fomulario-agendar-consulta-content-interno h2{
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 0;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-padrao-agendar-consulta{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 20px;
+    line-height: 1.8;
+}
+
+.content-horarios{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.horarios-geral{
+    padding-top: 20px;
+    position: relative;
+    display: flex;
+}
+
+.text-horarios{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.9;
+}
+
+.horario-manha{
+    display: block;
+}
+
+.text-manha{
+    margin-top: 10px;
+}
+
+.text-manha botton{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #6765bdbd;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: rgba(193, 193, 255, 0.87);
+    margin-right: 80px;
+}
+
+.coluna-horarios-manha{
+    display: block;
+}
+
+.horario-tarde{
+    display: block;
+}
+
+.text-tarde{
+    margin-top: 10px;
+}
+
+.text-tarde botton{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #6765bdbd;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: rgba(193, 193, 255, 0.87);
+    margin-left: 32px;
+    
+}
+
+.input-login{
+    position: relative;
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(151, 151, 151);
+}
+
+.coluna-horarios-tarde-esquerda{
+    display: block;
+}
+
+.coluna-horarios-tarde-direita{
+    display: block;
+    padding: 0px 0px 0px 40px;
+}
+
+.container-button-agendar-consulta{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.button-agendar-consulta{
+    height: 30px;
+    width: 300px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: rgb(94, 94, 255, 0.3);
+    color: black;
+    border: 1.8px solid rgb(94, 94, 255, 0.6);
+    box-shadow: black 0.1em 0.1em 0.3em;
+    border-radius: 10px;
+    text-decoration: none; 
+    margin-top: 0;
+    cursor: pointer;
+}
+
+#nome-medico-agendar-consulta{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* CSS CONTENT-HISTÓRICO-DE-CONSULTAS*/
+
+.content-historico-consultas{
+    padding: 10px 40px 0px 40px;
+    width: 150%;
+    background-image: linear-gradient(rgb(94, 94, 255, 0.6),rgb(94, 94, 255, 0.5));
+}
+
+.container-card-historico-consultas{
+    display: flex;
+    justify-content: center;
+}
+
+.card-historico-consultas{
+    display: flex;
+    height: 150px;
+    box-shadow: black 0.1em 0.1em 0.5em;
+    background-color: rgb(255, 255, 255, 0.2);
+    justify-content: center;
+}
+
+.texto-card-conjunto-historico-consultas{
+    display: block;
+    line-height: 100px;
+}
+
+.card-historico-consultas h4{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    padding: 20px 0px 0px 20px;
+}
+
+.container-card-historico-consultas{
+    display: flex;
+    justify-content: center;
+}
+
+.container-card-historico-consultas .card-historico-consultas{
+    top: 10px;
+    width: 400px;
+    height: 350px;
+    margin: 30px; /*espaçamento entre os cards*/
+    border: 1px solid rgb(94, 94, 255);
+    border-radius: 300px;
+}
+
+.container-card-button-historico-de-consultas{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+
+.card-historico-consultas a{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    background-color: #0c0b44;
+    color: #fff;
+    border-radius: 40px;
+    border: #0c0b44;
+    text-decoration: none;
+    position: absolute;
+}
+
+.card-text-historico-consultas{
+    padding: 10px 0px 20px 20px;
+}
+
+/* CSS CONTENT-MEDICO*/
+
+.content-medico{
+    padding-left: 40px;
+    width: 150%;
+    background-image: linear-gradient(rgb(94, 94, 255, 0.6),rgb(94, 94, 255, 0.5));
+}
+
+.container-button-content-medico{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-top: 60px;
+}
+
+.button-content-medico{
+    display: flex;
+    height: 50px;
+    width: 300px;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    background-color: rgb(94, 94, 255, 0.3);
+    color: black;
+    border: 1.8px solid rgb(94, 94, 255, 0.6);
+    box-shadow: black 0.1em 0.1em 0.3em;
+    border-radius: 10px;
+    text-decoration: none; 
+    margin-top: 0;
+    cursor: pointer;
+}
+
+/* CSS CONTENT-CADASTRO-MEDICO*/
+
+.content-cadastro-medico{
+    display: flex;
+    padding-left: 40px;
+    width: 150%;
+    background-image: linear-gradient(rgb(94, 94, 255, 0.6),rgb(94, 94, 255, 0.5));
+}
+
+.formulario-cadastro-medico{
+    display: block;
+    border: 2px solid rgb(94, 94, 255, 0.8);
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 20px;
+    width: 900px;
+    height: 670px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.hr-cadastro-medico{
+    border: none;
+    height: 1px;
+    background-color: rgb(94, 94, 255);
+    opacity: 70%;
+}
+
+.colunas-geral-cadastro-medico{
+    display: flex;
+    justify-content: center;
+}
+
+.coluna-esquerda-de-cadastro{
+    width: 45%;
+}
+
+.coluna-direita-de-cadastro{
+    width: 45%;
+    margin-left: 5%;
+}
+
+.text-padrao-de-cadastro{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 20px;
+    line-height: 1.8;
+}
+
+.input-padrao-cadastro-medico{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(34, 34, 187, 0.3);
+    background-color: transparent;
+}
+
+.container-button-cadastro-medico{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.button-cadastro-medico{
+    height: 40px;
+    width: 300px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(34, 34, 187, 0.3);
+    color: black;
+    border: 1.8px solid rgb(94, 94, 255, 0.6);
+    box-shadow: black 0.1em 0.1em 0.3em;
+    border-radius: 10px;
+    text-decoration: none; 
+    margin-top: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+#cadastro-medico{
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+/* CSS CONTENT-CADASTRO-CONVENIO*/
+
+.content-cadastro-convenio{
+    display: flex;
+    padding-left: 40px;
+    width: 150%;
+    background-image: linear-gradient(rgb(94, 94, 255, 0.6),rgb(94, 94, 255, 0.5));
+}
+
+.formulario-cadastro-convenio{
+    display: block;
+    border: 2px solid rgb(94, 94, 255, 0.8);
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 20px;
+    width: 500px;
+    height: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.hr-cadastro-convenio{
+    border: none;
+    height: 1px;
+    background-color: rgb(94, 94, 255);
+    opacity: 70%;
+}
+
+.colunas-geral-cadastro-medico{
+    display: flex;
+    justify-content: center;
+}
+
+.text-padrao-de-cadastro{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 20px;
+    line-height: 1.8;
+}
+
+.input-padrao-cadastro-convenio{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(34, 34, 187, 0.3);
+    background-color: transparent;
+}
+
+.container-button-cadastro-convenio{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.button-cadastro-convenio{
+    height: 30px;
+    width: 90%;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: rgb(34, 34, 187, 0.3);
+    color: black;
+    border: 1.8px solid rgb(94, 94, 255, 0.6);
+    box-shadow: black 0.1em 0.1em 0.3em;
+    border-radius: 10px;
+    text-decoration: none; 
+    margin-top: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+#cadastro-convenio{
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+/* CSS CONTENT-CADASTRO-CONSULTA*/
+
+.content-cadastro-consulta{
+    display: flex;
+    padding-left: 40px;
+    width: 150%;
+    background-image: linear-gradient(rgb(94, 94, 255, 0.6),rgb(94, 94, 255, 0.5));
+}
+
+.formulario-cadastro-consulta{
+    display: block;
+    border: 2px solid rgb(94, 94, 255, 0.8);
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 20px;
+    width: 900px;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.titulo-cadastro-consulta{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid rgb(136, 136, 253);
+    box-shadow: rgb(136, 136, 253) 0em 0.2em 0.2em;
+    border-radius: 70px 30px 70px 30px;
+    
+}
+
+.content-subtitulos-formulario{
+    display: block;
+    padding-bottom: 30px;
+}
+
+.colunas-geral-cadastro-consulta{
+    display: flex;
+    justify-content: center;
+}
+
+.coluna-esquerda-de-cadastro{
+    width: 45%;
+}
+
+.coluna-direita-de-cadastro{
+    width: 45%;
+    margin-left: 5%;
+}
+
+.text-padrao-de-cadastro{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 20px;
+    line-height: 1.8;
+}
+
+.textarea-padrao-cadastro-consulta{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(34, 34, 187, 0.3);
+    background-color: transparent;
+}
+
+.container-button-cadastro-consulta{
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.button-cadastro-consulta{
+    display: flex;
+    height: 40px;
+    width: 90%;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 187, 0.3);
+    color: black;
+    border: 1.8px solid rgb(94, 94, 255, 0.6);
+    box-shadow: black 0.1em 0.1em 0.3em;
+    border-radius: 10px;
+    text-decoration: none; 
+    margin-top: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+#cadastro-consulta{
+    padding-top: 15px;
+    font-size: 16px;
+}

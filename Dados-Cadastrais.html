@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/1-Pagina-Interna.css">
+
+    <title> Dados Cadastrais | Uniclinic </title>
+</head>
+
+<body>
+    <div class="content-geral">
+
+        <div class="barra-de-menu-pagina-interna">
+
+            <div class="titulo-uniclinic-barra-de-menu">
+                <a href="Pagina-Inicial-Interna.html"> Uniclinic </a>
+            </div>
+            <!--titulo-uniclinic-barra-de-menu-->
+
+            <div class="content-barra-de-menu">
+                <a href="Dados-Cadastrais.html"> Dados Cadastrais </a>
+            </div>
+            <!--content-barra-de-menu-->
+
+            <div class="content-barra-de-menu">
+                <a href="Agendar-Consulta-Interna.html"> Agendar Consulta </a>
+            </div>
+            <!--content-barra-de-menu-->
+
+            <div class="content-barra-de-menu">
+                <a href="Historico-Consultas.html"> Histórico de Consultas </a>
+            </div>
+            <!--content-barra-de-menu-->
+
+            <div class="content-barra-de-menu">
+                <a href="Médico-Interna.html"> Médico </a>
+            </div>
+            <!--content-barra-de-menu-->
+
+        </div>
+        <!--barra-de-menu-pagina-interna-->
+
+        <div class="content-dados-cadastrais">
+            <fieldset class="formulario-dados-cadastrais">
+
+                <div class="titulo-dados-cadastrais">
+                    <h1 id="dados-cadastrais"> Dados Cadastrais </h1>
+                    <hr class="hr-dados-cadastrais">
+                </div>
+                <!--titulo-dados-cadastrais-->
+
+                <div class="colunas-geral-dados-cadastrais">
+                    <div class="coluna-esquerda-de-cadastro">
+                        <form action="">
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="nome"> Nome Completo </label><br>
+                                <input required type="text" id="nome" name="nome" placeholder="Digite seu nome completo"
+                                    class="input-padrao-dados-cadastrais"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="nome_social"> Nome Social </label><br>
+                                <input type="text" id="nome_social" name="nome_social" placeholder="Opcional"
+                                    class="input-padrao-dados-cadastrais"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="cpf"> CPF </label><br>
+                                <input required type="text" id="cpf" name="cpf" placeholder="000.000.000-00"
+                                    class="input-padrao-dados-cadastrais"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="email"> Email </label><br>
+                                <input required type="email" id="email" name="email" placeholder="Digite seu email"
+                                    class="input-padrao-dados-cadastrais"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="dnascimento"> Data de Nascimento </label><br>
+                                <input required type="text" id="dnascimento" name="dnascimento" placeholder="00/00/0000"
+                                    class="input-padrao-dados-cadastrais"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="endereço"> Endereço </label><br>
+                                <input required type="text" id="endereço" name="endereço"
+                                    placeholder="Digite seu endereço" class="input-padrao-dados-cadastrais"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="cidade"> Cidade </label><br>
+                                <input required type="text" id="cidade" name="cidade" placeholder="Digite sua cidade"
+                                    class="input-padrao-dados-cadastrais"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="uf"> UF </label><br>
+                                <select id="uf" name="uf" class="input-padrao-dados-cadastrais"><br>
+                                    <option value="ac"> AC </option>
+                                    <option value="al"> AL </option>
+                                    <option value="am"> AM </option>
+                                    <option value="ap"> AP </option>
+                                    <option value="ba"> BA </option>
+                                    <option value="ce"> CE </option>
+                                    <option value="df"> DF </option>
+                                    <option value="es"> ES </option>
+                                    <option value="go"> GO </option>
+                                    <option value="ma"> MA </option>
+                                    <option value="mt"> MT </option>
+                                    <option value="ms"> MS </option>
+                                    <option value="mg"> MG </option>
+                                    <option value="pa"> PA </option>
+                                    <option value="pb"> PB </option>
+                                    <option value="pr"> PR </option>
+                                    <option value="pe"> PE </option>
+                                    <option value="pi"> PI </option>
+                                    <option value="rj"> RJ </option>
+                                    <option value="rn"> RN </option>
+                                    <option value="rs"> RS </option>
+                                    <option value="ro"> RO </option>
+                                    <option value="rr"> RR </option>
+                                    <option value="sc"> SC </option>
+                                    <option value="sp"> SP </option>
+                                    <option value="se"> SE </option>
+                                    <option value="to"> TO </option>
+                                </select><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="profissao"> Profissão </label><br>
+                                <input required type="text" id="profissao" name="profissao"
+                                    placeholder="Digite sua profissão" class="input-padrao-dados-cadastrais"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="telefone"> Telefone </label><br>
+                                <input required type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000"
+                                    class="input-padrao-dados-cadastrais"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                        </form>
+                    </div>
+                    <!--coluna-esquerda-de-cadastro-->
+
+                    <div class="coluna-direita-de-cadastro">
+                        <form action="">
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="religiao"> Religião </label><br>
+                                <input required type="text" id="religiao" name="religiao"
+                                    placeholder="Digite sua religião" class="input-padrao-dados-cadastrais"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="escolaridade"> Escolaridade </label><br>
+                                <select id="escolaridade" name="escolaridade" class="input-padrao-dados-cadastrais"><br>
+                                    <option value="selecione"> Selecione </option>
+                                    <option value="branco"> Ensino Fundamental - Incompleto </option>
+                                    <option value="preto"> Ensino Fundamental - Completo </option>
+                                    <option value="amarelo"> Ensino Médio - Incompleto </option>
+                                    <option value="pardo"> Ensino Médio - Completo </option>
+                                    <option value="indígena"> Ensino Superior - Incompleto </option>
+                                    <option value="branco"> Ensino Superior - Completo </option>
+                                    <option value="branco"> Outros </option>
+                                </select><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="etnia"> Etnia </label><br>
+                                <select id="etnia" name="etnia" class="input-padrao-dados-cadastrais"><br>
+                                    <option value="selecione"> Selecione </option>
+                                    <option value="branco"> Branco(a) </option>
+                                    <option value="preto"> Preto(a) </option>
+                                    <option value="amarelo"> Amarelo(a) </option>
+                                    <option value="pardo"> Pardo(a) </option>
+                                    <option value="indígena"> Indígena </option>
+                                </select><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="estado_civil"> Estado Civil </label><br>
+                                <select id="estado_civil" name="estado_civil" class="input-padrao-dados-cadastrais"><br>
+                                    <option value="selecione"> Selecione </option>
+                                    <option value="solteiro"> Solteiro(a) </option>
+                                    <option value="casado"> Casado(a) </option>
+                                    <option value="separado"> Separado(a) </option>
+                                    <option value="divorciado"> Divorciado(a) </option>
+                                    <option value="viúvo"> Viúvo(a) </option>
+                                </select><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="planodesaude"> Plano de Saúde </label><br>
+                                <select id="planodesaude" name="planodesaude" class="input-padrao-dados-cadastrais"><br>
+                                    <option value="convenio"> Convênio </option>
+                                    <option value="particular"> Particular </option>
+                                </select><br><br>
+
+                                <input type="text" id="convenio" name="nomeconvenio" placeholder="Nome do Convênio"
+                                    class="input-padrao-dados-cadastrais"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="sexo"> Sexo </label><br>
+                                <select id="sexo" name="sexo" class="input-padrao-dados-cadastrais"><br>
+                                    <option value="masculino"> Masculino </option>
+                                    <option value="feminino"> Feminino </option>
+                                    <option value="outros"> Outros </option>
+                                </select><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="senha"> Senha </label><br>
+                                <input required type="password" id="senha" name="senha" placeholder="Digite sua senha"
+                                    class="input-padrao-dados-cadastrais"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="confirmsenha"> Confirme sua senha </label><br>
+                                <input required type="password" id="confirmesenha" name="confirmesenha"
+                                    placeholder="Confirme sua senha" class="input-padrao-dados-cadastrais"><br><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="container-button-dados-cadastrais">
+                                <button class="button-dados-cadastrais"> Atualizar Cadastro </button>
+                            </div>
+                            <!--container-button-dados-cadastrais-->
+
+                        </form>
+                    </div>
+                    <!--coluna-direita-de-cadastro-->
+
+                </div>
+                <!--colunas-geral-dados-cadastrais-->
+
+            </fieldset>
+        </div>
+        <!--content-dados-cadastrais-->
+
+    </div>
+    <!--content-geral-->
+</body>
+
+</html>

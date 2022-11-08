@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/2-Conteudo-Barra-de-Menu-Index.css">
+
+    <title> Cadastro do Paciente | Uniclinic </title>
+
+</head>
+
+<body>
+    <header class="header-center">
+        <div class="center">
+            <div class="logo">
+                <a href="Index.html"><img src="assets/logo.webp"></a>
+            </div>
+            <!--logo-->
+
+            <div class="menu">
+                <a href="Index-AgendaMédica.html"> Agenda Médica </a>
+                <a href="Index-ProntuárioEletrônico.html"> Prontuário Eletrônico </a>
+                <a href="Index-Teleconsultas.html"> Teleconsultas </a>
+                <a href="Index-AgendamentoOnline.html"> Agendamento Online </a>
+                <a href="Index-FaleComAGente.html"> Fale Conosco </a>
+            </div>
+            <!--menu-->
+        </div>
+        <!--center-->
+
+        <div class="container-login">
+            <a href="login.html"> Login </a>
+        </div>
+        <!--container-login-->
+    </header>
+
+    <div class="content-cadastro-paciente">
+
+        <fieldset class="cadastro-center">
+            <div>
+                <div class="colunas-cadastro">
+                    <div class="coluna-cadastro-1">
+                        <h1 id="faça-cadastro"> Faça seu cadastro aqui</h1>
+                    </div>
+                    <!--coluna-cadastro-1-->
+
+                    <div class="coluna-cadastro-2">
+                        <div class="logo-cadastro">
+                            <img src="assets/logo.webp">
+                        </div>
+                        <!--logo-cadastro-->
+                    </div>
+                    <!--coluna-cadastro-2-->
+                </div>
+                <!--colunas-cadastro-->
+
+                <div class="colunas-cadastro">
+                    <div class="coluna-cadastro-1">
+                        <form action="cadastroPaciente2.html">
+                            <div class="text-padrao-de-cadastro">
+                                <label for="nome"> Nome Completo </label><br>
+                                <input required type="text" id="nome" name="nome" placeholder="Digite seu nome completo"
+                                    class="input-cadastro"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="nome_social"> Nome Social </label><br>
+                                <input type="text" id="nome_social" name="nome_social" placeholder="Opcional"
+                                    class="input-cadastro"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="cpf"> CPF </label><br>
+                                <input required type="text" id="cpf" name="cpf" placeholder="000.000.000-00"
+                                    class="input-cadastro"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="email"> Email </label><br>
+                                <input required type="email" id="email" name="email" placeholder="Digite seu email"
+                                    class="input-cadastro"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                    </div>
+                    <!--coluna-cadastro-1-->
+
+                    <div class="coluna-cadastro-2">
+                        <div class="text-padrao-de-cadastro">
+                            <label for="telefone"> Telefone </label><br>
+                            <input required type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000"
+                                class="input-cadastro"><br>
+                        </div>
+                        <!--text-padrao-de-cadastro-->
+
+                        <div class="text-padrao-de-cadastro">
+                            <label for="senha"> Senha </label><br>
+                            <input required type="password" id="senha" name="senha" placeholder="Digite sua senha"
+                                class="input-cadastro"><br>
+                        </div>
+                        <!--text-padrao-de-cadastro-->
+
+                        <div class="text-padrao-de-cadastro">
+                            <label for="confirmsenha"> Confirme sua senha </label><br>
+                            <input required type="password" id="confirmesenha" name="confirmesenha"
+                                placeholder="Confirme sua senha" class="input-cadastro"><br><br>
+                        </div>
+                        <!--text-padrao-de-cadastro-->
+
+                    </div>
+                    <!--coluna-cadastro-2-->
+                </div>
+                <!--colunas-cadastro-->
+
+                <div class="container-button-cadastro">
+                    <button class="button-cadastro"> Cadastrar-se </button>
+                </div>
+                <!--container-button-cadastro-->
+                </form>
+            </div>
+        </fieldset>
+    </div>
+    <!--content-cadastro-paciente-->
+</body>
+
+</html>

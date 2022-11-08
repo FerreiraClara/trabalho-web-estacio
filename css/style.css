@@ -1,0 +1,79 @@
+*{
+    margin: 0; /*ficar mais para cima a faixa azul*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: linear-gradient(rgb(94, 94, 255, 0.8),rgb(94, 94, 255, 0.5));
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+.header-center{
+    display: flex;
+    background-color: rgb(94, 94, 255);
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    padding: 0 0 0 2%;
+    background-color: rgb(94, 94, 255);
+    z-index: 9999;
+    width: 100%;
+    align-items: center;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.menu{
+    font-size: 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    margin: 15px;
+    
+}
+
+.menu a:hover{ 
+    transition: all 0.5s;
+    color: rgb(7, 14, 48);
+    text-decoration: none;
+}
+
+.container-button-login-index{
+    display: flex;
+    padding: 0 2% 0 0;
+
+}
+.container-button-login-index a{
+    display: flex;
+    border: thin solid white;
+    background-color: transparent;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.container-button-login-index a:hover{
+    transition: all 0.5s;
+    border-color: rgb(7, 14, 48);
+    color: rgb(7, 14, 48);
+    text-decoration: none;
+}

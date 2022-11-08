@@ -1,0 +1,126 @@
+.content-conclusao-cadastro{
+    display: flex;
+    margin-top: 150px;
+}
+
+.conclusao-cadastro-center{
+    display: block;
+    border: 2px solid rgb(94, 94, 255, 0.6);
+    background-color: white;
+    border-radius: 20px;
+    width: 900px;
+    height: 600px;
+    margin: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.colunas-conclusao-cadastro{
+    display: flex;
+    justify-content: center;
+}
+
+.coluna-conclusao-cadastro-1{
+    width: 45%;
+}
+
+.coluna-conclusao-cadastro-2{
+    width: 45%;
+    margin-left: 5%;
+}
+
+.logo-conclusao-cadastro img{
+    width: 120px;
+    margin-left: 78%;
+}
+
+.text-padrao-de-cadastro{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 20px;
+    line-height: 1.8;
+}
+
+.input-conclusao-cadastro{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(151, 151, 151);
+}
+
+.container-button-conclusao-cadastro{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-conclusao-cadastro{
+    height: 30px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(34, 34, 187, 0.3);
+    color: black;
+    border: 1.8px solid rgb(94, 94, 255, 0.6);
+    box-shadow: black 0.1em 0.1em 0.3em;
+    border-radius: 10px;
+    text-decoration: none; 
+    margin-top: 15px;
+    margin-left: 19%;
+    position: absolute;
+    cursor: pointer;
+}
+
+#conclusao-cadastro{
+    padding-top: 45px;
+    font-size: 20px;
+}
+
+#particular{
+    margin-left: 20%;
+}
+
+#sexo{
+    margin-left: 10%;
+}
+
+.confirm-alert{
+    position: fixed;
+    border-radius: 20px;
+    border: 3px solid rgb(94, 94, 255, 0.6);
+    padding: 50px;
+    display: none;
+    background: #fff;
+    margin-top: 100px;
+    margin-left: 35%;
+    
+}
+
+.confirm-alert-style{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+}
+
+.botton-ok{
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: rgba(78, 78, 211, 0.3);
+    color: black;
+    margin-top: 50px;
+    margin-left: 65%;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 1.8px solid rgb(94, 94, 255, 0.6);
+    box-shadow: black 0.1em 0.1em 0.3em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.active{
+    display: block !important;
+}

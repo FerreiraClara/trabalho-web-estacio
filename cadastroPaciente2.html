@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-cadastroPaciente2.css">
+    <script src="js/modal.js"></script>
+
+    <title> Cadastro do Paciente | Conclusão | Uniclinic </title>
+
+</head>
+
+<body>
+    <header class="header-center">
+        <div class="center">
+            <div class="logo">
+                <a href="Index.html"><img src="assets/logo.webp"></a>
+            </div>
+            <!--logo-->
+
+            <div class="menu">
+                <a href="Index-AgendaMédica.html"> Agenda Médica </a>
+                <a href="Index-ProntuárioEletrônico.html"> Prontuário Eletrônico </a>
+                <a href="Index-Teleconsultas.html"> Teleconsultas </a>
+                <a href="Index-AgendamentoOnline.html"> Agendamento Online </a>
+                <a href="Index-FaleComAGente.html"> Fale Conosco </a>
+            </div>
+            <!--menu-->
+        </div>
+        <!--center-->
+
+        <div class="container-login">
+            <a href="login.html"> Login </a>
+        </div>
+        <!--container-login-->
+    </header>
+
+    <div class="content-conclusao-cadastro">
+
+        <fieldset class="conclusao-cadastro-center">
+            <div>
+                <div class="colunas-conclusao-cadastro">
+                    <div class="coluna-conclusao-cadastro-1">
+                        <h1 id="conclusao-cadastro"> Conclusão de cadastro </h1>
+                    </div>
+                    <!--colunas-conclusao-cadastro-1-->
+
+                    <div class="coluna-conclusao-cadastro-2">
+                        <div class="logo-conclusao-cadastro">
+                            <img src="assets/logo.webp">
+                        </div>
+                        <!--logo-conclusao-cadastro-->
+                    </div>
+                    <!--colunas-conclusao-cadastro-2-->
+                </div>
+                <!--colunas-conclusao-cadastro-->
+
+                <div class="colunas-conclusao-cadastro">
+                    <div class="coluna-conclusao-cadastro-1">
+                        <form action="">
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="dnascimento"> Data de Nascimento </label><br>
+                                <input required type="text" id="dnascimento" name="dnascimento" placeholder="00/00/0000"
+                                    class="input-conclusao-cadastro"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="endereço"> Endereço </label><br>
+                                <input required type="text" id="endereço" name="endereço"
+                                    placeholder="Digite seu endereço" class="input-conclusao-cadastro"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="cidade"> Cidade </label><br>
+                                <input required type="text" id="cidade" name="cidade" placeholder="Digite sua cidade"
+                                    class="input-conclusao-cadastro"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="uf"> UF </label><br>
+                                <select id="uf" name="uf" class="input-conclusao-cadastro"><br>
+                                    <option value="ac"> AC </option>
+                                    <option value="al"> AL </option>
+                                    <option value="am"> AM </option>
+                                    <option value="ap"> AP </option>
+                                    <option value="ba"> BA </option>
+                                    <option value="ce"> CE </option>
+                                    <option value="df"> DF </option>
+                                    <option value="es"> ES </option>
+                                    <option value="go"> GO </option>
+                                    <option value="ma"> MA </option>
+                                    <option value="mt"> MT </option>
+                                    <option value="ms"> MS </option>
+                                    <option value="mg"> MG </option>
+                                    <option value="pa"> PA </option>
+                                    <option value="pb"> PB </option>
+                                    <option value="pr"> PR </option>
+                                    <option value="pe"> PE </option>
+                                    <option value="pi"> PI </option>
+                                    <option value="rj"> RJ </option>
+                                    <option value="rn"> RN </option>
+                                    <option value="rs"> RS </option>
+                                    <option value="ro"> RO </option>
+                                    <option value="rr"> RR </option>
+                                    <option value="sc"> SC </option>
+                                    <option value="sp"> SP </option>
+                                    <option value="se"> SE </option>
+                                    <option value="to"> TO </option>
+                                </select><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="profissao"> Profissão </label><br>
+                                <input required type="text" id="profissao" name="profissao"
+                                    placeholder="Digite sua profissão" class="input-conclusao-cadastro"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                            <div class="text-padrao-de-cadastro">
+                                <label for="religiao"> Religião </label><br>
+                                <input required type="text" id="religiao" name="religiao"
+                                    placeholder="Digite sua religião" class="input-conclusao-cadastro"><br>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                        </form>
+                    </div>
+                    <!--colunas-conclusao-cadastro-1-->
+                    <!--coluna-conclusao-cadastro-1-->
+                    <div class="coluna-conclusao-cadastro-2">
+
+                        <div class="text-padrao-de-cadastro">
+                            <label for="escolaridade"> Escolaridade </label><br>
+                            <select id="escolaridade" name="escolaridade" class="input-conclusao-cadastro"><br>
+                                <option value="selecione"> Selecione </option>
+                                <option value="branco"> Ensino Fundamental - Incompleto </option>
+                                <option value="preto"> Ensino Fundamental - Completo </option>
+                                <option value="amarelo"> Ensino Médio - Incompleto </option>
+                                <option value="pardo"> Ensino Médio - Completo </option>
+                                <option value="indígena"> Ensino Superior - Incompleto </option>
+                                <option value="branco"> Ensino Superior - Completo </option>
+                                <option value="branco"> Outros </option>
+
+                            </select><br>
+                        </div>
+                        <!--text-padrao-de-cadastro-->
+
+                        <div class="text-padrao-de-cadastro">
+                            <label for="etnia"> Etnia </label><br>
+                            <select id="etnia" name="etnia" class="input-conclusao-cadastro"><br>
+                                <option value="selecione"> Selecione </option>
+                                <option value="branco"> Branco(a) </option>
+                                <option value="preto"> Preto(a) </option>
+                                <option value="amarelo"> Amarelo(a) </option>
+                                <option value="pardo"> Pardo(a) </option>
+                                <option value="indígena"> Indígena </option>
+                            </select><br>
+                        </div>
+                        <!--text-padrao-de-cadastro-->
+
+                        <div class="text-padrao-de-cadastro">
+                            <label for="estado_civil"> Estado Civil </label><br>
+                            <select id="estado_civil" name="estado_civil" class="input-conclusao-cadastro"><br>
+                                <option value="selecione"> Selecione </option>
+                                <option value="solteiro"> Solteiro(a) </option>
+                                <option value="casado"> Casado(a) </option>
+                                <option value="separado"> Separado(a) </option>
+                                <option value="divorciado"> Divorciado(a) </option>
+                                <option value="viúvo"> Viúvo(a) </option>
+                            </select><br>
+                        </div>
+                        <!--text-padrao-de-cadastro-->
+
+                        <div class="text-padrao-de-cadastro">
+                            <label for="planodesaude"> Plano de Saúde </label><br>
+
+                            <input type="checkbox" id="convenio" name="convenio" value="Convênio">
+                            <label for="convenio"> Convênio </label>
+
+                            <input type="checkbox" id="particular" name="particular" value="Particular">
+                            <label for="particular"> Particular </label><br>
+
+                            <input type="text" id="convenio" name="nomeconvenio"
+                                placeholder="Infome o convênio (ou seleção)" class="input-conclusao-cadastro"><br>
+                        </div>
+                        <!--text-padrao-de-cadastro-->
+
+                        <div class="text-padrao-de-cadastro">
+                            <label for="sexo"> Sexo </label><br>
+
+                            <input type="checkbox" name="sexo" value="Masculino">
+                            <label for="sexo"> Masculino </label>
+
+                            <input type="checkbox" id="sexo" name="sexo" value="Feminino">
+                            <label for="sexo"> Feminino </label>
+
+                            <input type="checkbox" id="sexo" name="sexo" value="Outros">
+                            <label for="sexo"> Outros </label><br><br>
+                        </div>
+                        <!--text-padrao-de-cadastro-->
+
+                        <div class="container-button-conclusao-cadastro">
+                            <button onclick="openModal()" class="button-conclusao-cadastro"> Cadastrar-se </button>
+                        </div>
+                        <!--container-button-conclusao-cadastro-->
+                    </div>
+                    <!--coluna-conclusao-cadastro-2-->
+                    </form>
+                </div>
+                <!--colunas-conclusao-cadastro-->
+        </fieldset>
+
+        <div class="confirm-alert">
+            <div class="confirm-alert-style">
+                Seu cadastro foi realizado com sucesso!
+            </div>
+            <!--confirm-alert-style-->
+            <div onclick="closeModal()" class="botton-ok">
+                OK
+            </div>
+            <!--botton-ok-->
+        </div>
+        <!--confirm-alert-->
+
+    </div>
+    <!--content-conclusao-cadastro-->
+</body>
+
+</html>

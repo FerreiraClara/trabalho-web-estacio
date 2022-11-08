@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/1-Pagina-Interna.css">
+
+    <title> Dados Cadastrais | Uniclinic </title>
+</head>
+
+<body>
+    <div class="content-geral">
+
+        <div class="barra-de-menu-pagina-interna">
+
+            <div class="titulo-uniclinic-barra-de-menu">
+                <a href="Pagina-Inicial-Interna.html"> Uniclinic </a>
+            </div>
+            <!--titulo-uniclinic-barra-de-menu-->
+
+            <div class="content-barra-de-menu">
+                <a href="Dados-Cadastrais.html"> Dados Cadastrais </a>
+            </div>
+            <!--content-barra-de-menu-->
+
+            <div class="content-barra-de-menu">
+                <a href="Agendar-Consulta-Interna.html"> Agendar Consulta </a>
+            </div>
+            <!--content-barra-de-menu-->
+
+            <div class="content-barra-de-menu">
+                <a href="Historico-Consultas.html"> Histórico de Consultas </a>
+            </div>
+            <!--content-barra-de-menu-->
+
+            <div class="content-barra-de-menu">
+                <a href="Médico-Interna.html"> Médico </a>
+            </div>
+            <!--content-barra-de-menu-->
+
+        </div>
+        <!--barra-de-menu-pagina-interna-->
+
+        <div class="content-cadastro-consulta">
+            <fieldset class="formulario-cadastro-consulta">
+
+                <div class="content-subtitulos-formulario">
+
+                    <div class="titulo-cadastro-consulta">
+                        <h4> História da Doença Atual </h4>
+                    </div>
+                    <!--titulo-cadastro-consulta-->
+
+                    <div class="colunas-geral-cadastro-consulta">
+                        <div class="coluna-esquerda-de-cadastro">
+                            <form action="">
+
+                                <div class="text-padrao-de-cadastro">
+                                    <label for="queixa_principal" style="font-size: 14px;"> Queixa Principal </label>
+                                    <textarea id="queixa_principal" name="queixa_principal" rows="4" cols="50"
+                                        placeholder="Ex: Dor de cabeça; Dor no peito; Tosse; Entre outros."
+                                        class="textarea-padrao-cadastro-consulta"></textarea>
+                                </div>
+                                <!--text-padrao-de-cadastro-->
+
+                                <div class="text-padrao-de-cadastro">
+                                    <label for="começo_da_dor" style="font-size: 14px;"> Quando Começou? </label>
+                                    <textarea id="começo_da_dor" name="começo_da_dor" rows="4" cols="50"
+                                        placeholder="Ex: Há uma semana."
+                                        class="textarea-padrao-cadastro-consulta"></textarea>
+                                </div>
+                                <!--text-padrao-de-cadastro-->
+
+                                <div class="text-padrao-de-cadastro">
+                                    <label for="Intensidade_da_dor" style="font-size: 14px;"> Intensidade da queixa de 0
+                                        a 10 </label>
+                                    <input type="number" id="Intensidade_da_dor" name="Intensidade_da_dor" min="0"
+                                        max="10" class="input-padrao-dados-cadastrais">
+                                </div>
+                                <!--text-padrao-de-cadastro-->
+
+                                <div class="text-padrao-de-cadastro">
+                                    <label for="frequencia_dor" style="font-size: 14px;"> Frequência em que a queixa é
+                                        desencadeada
+                                    </label><br>
+                                    <input type="checkbox" id="frequencia_dor" name="frequencia_dor" value="Constante">
+                                    <label for="frequencia_dor"> Constante </label>
+                                    <input type="checkbox" id="frequencia_dor" name="frequencia_dor"
+                                        value="Intermitente">
+                                    <label for="frequencia_dor"> Intermitente </label>
+                                </div>
+                                <!--text-padrao-de-cadastro-->
+
+                                <div class="text-padrao-de-cadastro">
+                                    <label for="ataque_da_dor" style="font-size: 14px;"> A dor é localizada ou irradia
+                                        para outra parte do corpo? </label>
+                                    <textarea id="ataque_da_dor" name="ataque_da_dor" rows="4" cols="50"
+                                        placeholder="Explique com suas palavras. Ex: Dor no peito que irradia para o braço esquerdo"
+                                        class="textarea-padrao-cadastro-consulta"></textarea>
+                                </div>
+                                <!--text-padrao-de-cadastro-->
+
+                            </form>
+
+                        </div>
+                        <!--coluna-esquerda-de-cadastro-->
+
+                        <div class="coluna-direita-de-cadastro">
+                            <form action="">
+
+                                <div class="text-padrao-de-cadastro">
+                                    <label for="melhora_da_dor" style="font-size: 14px;"> Tem alguma coisa que você faz
+                                        que
+                                        melhore a dor?
+                                    </label>
+                                    <textarea id="melhora_da_dor" name="melhora_da_dor" rows="4" cols="50"
+                                        placeholder="Explique com suas palavras."
+                                        class="textarea-padrao-cadastro-consulta"></textarea>
+                                </div>
+                                <!--text-padrao-de-cadastro-->
+
+                                <div class="text-padrao-de-cadastro">
+                                    <label for="piora_da_dor" style="font-size: 14px;"> Tem alguma coisa que você faz
+                                        que
+                                        piore a dor?
+                                    </label>
+                                    <textarea id="piora_da_dor" name="piora_da_dor" rows="4" cols="50"
+                                        placeholder="Explique com suas palavras."
+                                        class="textarea-padrao-cadastro-consulta"></textarea>
+                                </div>
+                                <!--text-padrao-de-cadastro-->
+
+                                <div class="text-padrao-de-cadastro">
+                                    <label for="hora_do_dia_que_a_dor_piora" style="font-size: 14px;"> Tem alguma hora
+                                        do
+                                        dia em que a dor
+                                        fica mais intensa? </label>
+                                    <textarea id="hora_do_dia_que_a_dor_piora" name="hora_do_dia_que_a_dor_piora"
+                                        rows="4" cols="50" placeholder="Explique com suas palavras."
+                                        class="textarea-padrao-cadastro-consulta"></textarea>
+                                </div>
+                                <!--text-padrao-de-cadastro-->
+
+                                <div class="text-padrao-de-cadastro">
+                                    <label for="junto_com_a_dor" style="font-size: 14px;"> Além dessa dor, algo mais
+                                        acontece junto?
+                                    </label>
+                                    <textarea id="junto_com_a_dor" name="junto_com_a_dor" rows="4" cols="50"
+                                        placeholder="Explique com suas palavras."
+                                        class="textarea-padrao-cadastro-consulta"></textarea>
+                                </div>
+                                <!--text-padrao-de-cadastro-->
+
+                                <div class="text-padrao-de-cadastro">
+                                    <label for="febre" style="font-size: 14px;"> Você teve febre? </label>
+                                    <textarea id="febre" name="febre" rows="4" cols="50"
+                                        placeholder="Explique com suas palavras."
+                                        class="textarea-padrao-cadastro-consulta"></textarea>
+                                </div>
+                                <!--text-padrao-de-cadastro-->
+
+                            </form>
+
+                        </div>
+                        <!--colunas-direita-de-cadastro-->
+                    </div>
+                    <!--colunas-geral-cadastro-consulta-->
+
+                </div>
+                <!--content-subtitulos-formulario-->
+
+                <div class="content-subtitulos-formulario">
+
+                    <div class="titulo-cadastro-consulta">
+                        <h4> História Patológica Pregressa </h4>
+                    </div>
+                    <!--titulo-cadastro-consulta-->
+
+                    <div class="colunas-geral-cadastro-consulta">
+                        <div class="coluna-esquerda-de-cadastro">
+                            <form action="">
+
+                                <div class="text-padrao-de-cadastro">
+                                    <label for="medicamento" style="font-size: 14px;"> Faz uso de algum medicamento?
+                                    </label>
+                                    <textarea id="medicamento" name="medicamento" rows="4" cols="50"
+                                        placeholder="Se sim, qual?"
+                                        class="textarea-padrao-cadastro-consulta"></textarea>
+                                </div>
+                                <!--text-padrao-de-cadastro-->
+
+                                <div class="text-padrao-de-cadastro">
+                                    <label for="intolerancia_medicamentosa" style="font-size: 14px;"> Você tem
+                                        intolerância a algum medicamento? </label>
+                                    <textarea id="intolerancia_medicamentosa" name="intolerancia_medicamentosa" rows="4"
+                                        cols="50" placeholder="Se sim, qual?"
+                                        class="textarea-padrao-cadastro-consulta"></textarea>
+                                </div>
+                                <!--text-padrao-de-cadastro-->
+
+                            </form>
+                        </div>
+                        <!--coluna-esquerda-de-cadastro-->
+
+                        <div class="coluna-direita-de-cadastro">
+                            <div class="text-padrao-de-cadastro">
+                                <label for="patologia_progressiva" style="font-size: 14px;"> Você já foi
+                                    diagnosticado com alguma doença? </label>
+                                <textarea id="patologia_progressiva" name="patologia_progressiva" rows="4" cols="50"
+                                    placeholder="Ex: Diabetes; Hipertensão; Câncer; Entre outros."
+                                    class="textarea-padrao-cadastro-consulta"></textarea>
+                            </div>
+                            <!--text-padrao-de-cadastro-->
+
+                        </div>
+                        <!--coluna-direita-de-cadastro-->
+
+                    </div>
+                    <!--colunas-geral-cadastro-consulta-->
+                </div>
+                <!--content-subtitulos-formulario-->
+
+                <div class="content-subtitulos-formulario">
+
+                    <div class="titulo-cadastro-consulta">
+                        <h4> Histórico Familiar </h4>
+                    </div>
+                    <!--titulo-cadastro-consulta-->
+
+                    <div class="colunas-geral-cadastro-consulta">
+                        <div class="coluna-esquerda-de-cadastro">
+                            <form action="">
+
+                                <div class="text-padrao-de-cadastro">
+                                    <label for="convivencia" style="font-size: 14px;"> Com quem vive? </label>
+                                    <textarea id="convivencia" name="convivencia" rows="4" cols="50"
+                                        placeholder="Ex: Pai, mãe e irmão."
+                                        class="textarea-padrao-cadastro-consulta"></textarea>
+                                </div>
+                                <!--text-padrao-de-cadastro-->
+
+                            </form>
+                        </div>
+                        <!--coluna-esquerda-de-cadastro-->
+
+                        <div class="coluna-direita-de-cadastro">
+                            <form action="">
+
+                                <div class="text-padrao-de-cadastro">
+                                    <label for="historico_doença" style="font-size: 14px;"> Há histórico de doença na
+                                        família? </label>
+                                    <textarea id="junto_com_a_dor" name="junto_com_a_dor" rows="4" cols="50"
+                                        placeholder="Explique com suas palavras. Ex: Diabetes; Hipertensão; Etc."
+                                        class="textarea-padrao-cadastro-consulta"></textarea>
+                                </div>
+                                <!--text-padrao-de-cadastro-->
+
+                            </form>
+                        </div>
+                        <!--coluna-direita-de-cadastro-->
+
+                    </div>
+                    <!--colunas-geral-cadastro-consulta-->
+                </div>
+                <!--content-subtitulos-formulario-->
+
+                <div class="container-button-cadastro-consulta">
+                    <a class="button-cadastro-consulta"> Salvar </a>
+                </div>
+                <!--container-button-agendar-consulta-->
+
+            </fieldset>
+
+        </div>
+        <!--content-cadastro-consulta-->
+
+    </div>
+    <!--content-geral-->
+</body>
+
+</html>

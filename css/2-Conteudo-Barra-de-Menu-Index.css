@@ -1,0 +1,454 @@
+/* ESTILO PADRÃO - CONTEUDO DOS LINKS DA BARRA DE MENU DO INDEX*/
+
+.titulo-contents-barra-de-menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.titulo-contents-barra-de-menu h1{
+    position: absolute;
+    padding: 200px;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serifs;
+    font-weight: bold;
+    color: rgb(10, 8, 71);
+    text-decoration: underline 0.050em;
+}
+
+.titulo-contents-barra-de-menu p{
+    position: absolute;
+    padding: 250px 300px;
+    font-size: 40px;
+    font-weight: 550;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: #2f2cb8 0em 0em 0.1em;
+}
+
+.geral-texto-img{
+    display: flex;
+    width: 93%;
+    padding: 650px 50px 0px 50px;
+}
+
+.metade-text-left{
+    width: 60%;
+    padding: 3%;
+    margin-top: 50px;
+}
+
+.metade-text-left h3{
+    padding: 0px 15% 0px 2%;
+    text-align: justify;
+    text-align: center;
+}
+
+.metade-text-left p{
+    padding: 0px 15% 0px 2%;
+    text-align: justify;
+    text-align: center;
+}
+
+.metade-text-right{
+    width: 50%;
+    padding: 3%;
+    margin-top: 50px;
+}
+
+.metade-text-right p,h3{
+    padding: 0px 10% 0px 2%;
+    text-align: justify;
+    text-align: center;
+}
+
+.metade-text-right h3{
+    padding: 0px 10% 0px 2%;
+    text-align: justify;
+    text-align: center;
+}
+
+.metade-text-right p{
+    padding: 0px 10% 0px 2%;
+    text-align: justify;
+    text-align: center;
+}
+
+.metade-img{
+    width: 50%;
+    text-align: center;
+}
+
+.metade-img img{
+    width: 600px;
+}
+
+.geral-texto-img-2{
+    display: flex;
+    width: 93%;
+    padding: 20px 50px 0px 50px;
+}
+
+/* FORMULARIO FALE-COM-A-GENTE*/
+
+.fale-com-a-gente-formulário{
+    padding-top: 570px;
+}
+
+.espaço-formulario-fale-com-a-gente{
+    display: flex;
+    margin-top: 150px;
+}
+
+.fale-com-a-gente-form-center{
+    display: block;
+    border: 2px solid rgb(94, 94, 255, 0.6);
+    background-color: white;
+    border-radius: 20px;
+    width: 1200px;
+    height: 500px;
+    margin: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.colunas-cadastro{
+    display: flex;
+}
+
+.coluna1{
+    width: 45%;
+}
+
+.coluna2{
+    width: 45%;
+    margin-left: 5%;
+}
+
+.logo-fale-com-a-gente img{
+    width: 120px;
+    margin-left: 78%;
+}
+
+.text-form-fale-com-a-gente{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 20px;
+    line-height: 1.8;
+}
+
+.input-fale-com-a-gente{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(151, 151, 151);
+}
+
+.input-textarea-fale-com-a-gente{
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(151, 151, 151);
+}
+
+.botton-fale-com-a-gente{
+    height: 30px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(34, 34, 187, 0.3);
+    color: black;
+    border: 1.8px solid rgb(94, 94, 255, 0.6);
+    box-shadow: black 0.1em 0.1em 0.3em;
+    border-radius: 10px;
+    text-decoration: none; 
+    margin-top: 20px;
+    margin-left: 74%;
+    cursor: pointer;
+}
+
+#text-ouvir-duvidas{
+    padding-top: 45px;
+    font-size: 16px;
+}
+
+/* CONTEUDO INDEX - CARDS/CAROUSEL */
+
+.card{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    box-shadow: black 0.1em 0.1em 1em;
+}
+
+.container-card{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+
+.container-card .card{
+    display: flex;
+    top: 10px;
+    width: 400px;    
+    margin: 10px; /*espaçamento entre os cards*/
+    border: 1px solid rgb(94, 94, 255);
+    background: transparent;
+    border-radius: 26px;
+    text-align: center;
+}
+
+.card a{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    background-color: #0c0b44;
+    color: #fff;
+    border-radius: 40px;
+    border: #0c0b44;
+    text-decoration: none;
+    position: absolute;
+}
+
+.card a{
+    color: white
+}
+
+.container-saiba-mais{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+
+.card a:hover{
+    transition: all 0.5s;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.card-text{
+    padding: 10px;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.info{
+    padding-top: 60px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #0c0b44;
+}
+
+.text-info{
+    padding-top: 10px;
+    margin: 0 1%;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+
+hr{
+    width: 50%;
+    background-color: rgb(94, 94, 255);
+    opacity: 30%;
+    margin: 25%;
+}
+
+#paragrafo-index{
+    color: #0c0b58;
+}
+
+#img-carousel{
+    width: 100%;
+}
+
+#texto-carousel{
+    position: absolute;
+    text-align: center;
+    margin-top: -120px;
+    font-size: 40px;
+    width: 100%;
+    font-weight: bold;
+	background: white;
+    opacity: 70%; /*também pode usar de 0 a 1*/
+    color:black
+}
+
+/* CONTENT AREA-LOGIN */
+
+.content-area-login{
+    display: flex;
+    margin-top: 150px;   
+}
+
+.formulario-area-login{
+    display: block;
+    border: 2px solid rgb(94, 94, 255, 0.6);
+    background-color: white;
+    border-radius: 20px;
+    width: 35%;
+    height: 450px;
+    margin: 40px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-formulario-login img{
+    width: 150px;
+    display: flex;
+}
+
+.content-area-login .logo img{
+    width: 150px;
+    display: flex;
+}
+
+.text-padrao-de-cadastro{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 20px;
+    line-height: 1.8;
+}
+
+.input-area-login{
+    width: 98%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(151, 151, 151);
+}
+
+.button-area-login {
+    height: 30px;
+    width: 90px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: rgb(94, 94, 255, 0.3);
+    color: black;
+    border: 1.8px solid rgb(94, 94, 255, 0.6);
+    box-shadow: black 0.1em 0.1em 0.3em;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.link-area-login{
+    font-size: 11px;
+    color: black;
+    float: right;
+    margin-top: 110px;
+}
+
+.descrição-area-login{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50%;
+    padding: 50px;
+    padding-top: 100px;
+    text-align: justify;   
+}
+
+.descrição-area-login h3{
+    padding: 0;
+    text-align: left;
+}
+
+#paragrafo-area-login{
+    line-height: 1.6;
+}
+
+#lista-area-login{
+    line-height: 2.5;
+}
+
+/* CONTENT CADASTRO DO PACIENTE*/
+
+.content-cadastro-paciente{
+    display: flex;
+    margin-top: 150px;
+}
+
+.cadastro-center{
+    display: block;
+    border: 2px solid rgb(94, 94, 255, 0.6);
+    background-color: white;
+    border-radius: 20px;
+    width: 900px;
+    height: 460px;
+    margin: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.colunas-cadastro{
+    display: flex;
+    justify-content: center;
+}
+
+.coluna-cadastro-1{
+    width: 45%;
+}
+
+.coluna-cadastro-2{
+    width: 45%;
+    margin-left: 5%;
+}
+
+.logo-cadastro img{
+    width: 120px;
+    margin-left: 78%;
+}
+
+.text-padrao-de-cadastro{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 20px;
+    line-height: 1.8;
+}
+
+.input-cadastro{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(151, 151, 151);
+}
+
+.container-button-cadastro{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-cadastro{
+    height: 30px;
+    width: 150px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: rgb(94, 94, 255, 0.3);
+    color: black;
+    border: 1.8px solid rgb(94, 94, 255, 0.6);
+    box-shadow: black 0.1em 0.1em 0.3em;
+    border-radius: 10px;
+    text-decoration: none; 
+    margin-top: 0;
+    margin-right: 40px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#faça-cadastro{
+    padding-top: 45px;
+    font-size: 20px;
+}
+
+/* CONTENT CONCLUSÃO DE CADASTRO DO PACIENTE */
+
